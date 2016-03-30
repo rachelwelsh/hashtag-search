@@ -1,0 +1,90 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body{
+  background-image: url("bg-pattern.png");
+  background-attachment: fixed;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  font-family:"Abel", sans-serif;
+  font-size:20px;
+}
+
+
+#logo img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+	padding:0px;
+}
+
+#search-bar{
+	display:block;
+	margin:50px auto;
+	width:600px;
+	height:50px;
+}
+
+#searchbox{
+	display:block;
+	width:100px;
+}
+
+#search{
+	display:block;
+	margin:0 auto;
+	width:540px;
+	height:30px;
+	border: 2px solid #121212;
+  border-radius: 5px;
+	padding-left:10px;
+	font-size:16px;
+}
+
+#submit{
+	display:block;
+	margin-left:550px;
+	margin-top:-36px;
+	background-image: linear-gradient(to right, #ef425e, #f6dc6b,#bfe5be,#76c7fe);
+	height:36px;
+	width:100px;
+  border: 2px solid #121212;
+  border-radius: 5px;
+	font-size:16px;
+	cursor:pointer;
+}
+
+hr {
+	display:block;
+	position:relative;
+	margin-top:18em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+	width:85%;
+}
+
+
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+}
+
+footer p{
+	display:block;
+  margin: 20px auto;
+	font-weight:100;
+	width:200px;
+	font-size:18px;
+	}
