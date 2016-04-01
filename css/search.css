@@ -7,9 +7,8 @@ html {
 body{
   background-image: url("bg-pattern.png");
   background-attachment: fixed;
-  background-color: #2d2d2d;
-  color: #ffffff;
-  font-family:"Abel", sans-serif;
+  color:#ffffff;
+  font-family:"Calibri", sans-serif;
   font-size:20px;
 }
 
@@ -20,19 +19,19 @@ body{
 	margin-right:auto;
 	margin-top:10%;
 	padding:0px;
-}
+	}
 
 #search-bar{
 	display:block;
 	margin:50px auto;
 	width:600px;
 	height:50px;
-}
+	}
 
 #searchbox{
 	display:block;
 	width:100px;
-}
+	}
 
 #search{
 	display:block;
@@ -40,10 +39,10 @@ body{
 	width:540px;
 	height:30px;
 	border: 2px solid #121212;
-  border-radius: 5px;
+    border-radius: 5px;
 	padding-left:10px;
 	font-size:16px;
-}
+	}
 
 #submit{
 	display:block;
@@ -52,21 +51,21 @@ body{
 	background-image: linear-gradient(to right, #ef425e, #f6dc6b,#bfe5be,#76c7fe);
 	height:36px;
 	width:100px;
-  border: 2px solid #121212;
-  border-radius: 5px;
+    border: 2px solid #121212;
+    border-radius: 5px;
 	font-size:16px;
 	cursor:pointer;
-}
+	}
 
 hr {
 	display:block;
 	position:relative;
 	margin-top:18em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 	width:85%;
 }
 
@@ -83,8 +82,100 @@ footer {
 
 footer p{
 	display:block;
-  margin: 20px auto;
+  	margin: 20px auto;
 	font-weight:100;
 	width:200px;
 	font-size:18px;
 	}
+	
+	
+	@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+.body {
+	width:90%;
+	font-size:95%;
+	background-image: url("bg-pattern.png");
+  	background-attachment: fixed;
+ 	color:#ffffff;
+  	font-family:"Calibri", sans-serif;
+}	
+
+#logo img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-height:60%;
+	max-width:60%;
+	margin-top:5%;
+	padding:0px;
+	}
+	
+#search-bar{
+	display:block;
+	margin:30px auto;
+	width:200px;
+	height:30px;
+	}
+	
+#searchbox{
+	display:block;
+	width:100px;
+	}
+	
+#search{
+	display:block;
+	margin-top:0;
+	margin-left:-39px;
+	width:200px;
+	height:20px;
+	border: 1px solid #121212;
+    border-radius: 2px;
+	padding-left:10px;
+	font-size:14px;
+	}
+	
+#submit{
+	display:block;
+	margin-left:172px;
+	margin-top:-24px;
+	background-image: linear-gradient(to right, #ef425e, #f6dc6b,#bfe5be,#76c7fe);
+	height:24px;
+	width:70%;
+    border: 1px solid #121212;
+    border-radius: 2px;
+	font-size:14px;
+	cursor:pointer;
+	}
+	
+hr {
+	display:block;
+	position:relative;
+	margin-top:5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	width:85%;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+}
+
+footer p{
+	display:block;
+  	margin: 20px auto;
+	font-weight:100;
+	width:200px;
+	font-size:14px;
+	}
+
+	
+	
+}
