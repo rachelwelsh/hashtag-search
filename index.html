@@ -12,29 +12,16 @@
 </head>
 <body>
 
-<div id="page">
-  <div id="header-page">
-    <div id="header">
-      <div id="logo">
-        <a href="index.html"><img src="images/final.png" /></a>
-      </div><!--logo-->
-    </div><!--header-->
-  </div><!--header-page-->
-</div><!--page-->
+<form id="tagsearch">
+  <p>
+    <label for="tag">Hashtag:</label>
+    <input type="text" id="tag" name="tag" placeholder="unicorn" required pattern="[a-zA-Z0-9]+" />
+    <input type="submit" value="Search" />
+  </p>
+</form>
 
-<div id="search-bar">
-  <form id="searchbox" action="#">
-    <input id="search" type="text" placeholder="Type here">
-    <input id="submit" type="submit" value="#Search" >
-  </form>
-</div>
-<!--search-bar-->
+<div id="target"></div>
 
-<hr>
-
-<footer>
-  <p>Copyright &copy; 2016</p>
-</footer>
 
 </body>
 </html>
