@@ -9,7 +9,7 @@ window.Instagram = {
     init: function( opt ) {
         opt = opt || {};
 
-        this.config.client_id = opt.client_id;
+        this.config.access_token = opt.access_token;
     },
 
     /*
