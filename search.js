@@ -24,7 +24,7 @@ window.Instagram = {
      * Get a list of recently tagged media.
      */
     tagsByName: function( name, callback ) {
-        var endpoint = this.BASE_URL + '/tags/' + name + '/media/recent?access_token=' + this.config.access_token;
+        var endpoint = this.BASE_URL + '/tags/' + 'cat' + '/media/recent?access_token=' + this.config.access_token;
         this.getJSON( endpoint, callback );
     },
 
