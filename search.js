@@ -4,7 +4,7 @@ window.Instagram = {
      */
     config: {},
 
-    BASE_URL: 'http://hashtag-search.azurewebsites.net',
+    BASE_URL: 'https://api.instagram.com/v1',
 
     init: function( opt ) {
         opt = opt || {};
