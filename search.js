@@ -12,7 +12,7 @@ window.Instagram = {
         this.config.client_id = opt.client_id;
     },
 
-    /**
+    /*
      * Get a list of popular media.
      */
     popular: function( callback ) {
