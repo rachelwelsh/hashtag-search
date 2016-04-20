@@ -16,7 +16,7 @@ window.Instagram = {
      * Get a list of popular media.
      */
     popular: function( callback ) {
-        var endpoint = this.BASE_URL + '/media/popular?client_id=' + this.config.client_id;
+        var endpoint = this.BASE_URL + '/media/popular?access_token=' + this.config.access_token;
         this.getJSON( endpoint, callback );
     },
 
@@ -24,7 +24,7 @@ window.Instagram = {
      * Get a list of recently tagged media.
      */
     tagsByName: function( name, callback ) {
-        var endpoint = this.BASE_URL + '/tags/' + name + '/media/recent?client_id=' + this.config.client_id;
+        var endpoint = this.BASE_URL + '/tags/' + name + '/media/recent?access_token=' + this.config.access_token;
         this.getJSON( endpoint, callback );
     },
 
@@ -42,6 +42,7 @@ window.Instagram = {
 
 Instagram.init({
     client_id: '6adedf760d08471099116d3eb04ee026'
+    access_token: '2010957925.6adedf7.e017c72192704758b86014551a73a079'
 });
 
 
