@@ -42,7 +42,6 @@ window.Instagram = {
 
 Instagram.init({
     client_id: '6adedf760d08471099116d3eb04ee026'
-    access_token: '2010957925.6adedf7.e017c72192704758b86014551a73a079'
 });
 
 
