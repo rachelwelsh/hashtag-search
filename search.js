@@ -9,14 +9,14 @@ window.Instagram = {
     init: function( opt ) {
         opt = opt || {};
 
-        this.config.access_token = opt.access_token;
+        this.config.client_id = opt.client_id;
     },
 
     /*
      * Get a list of popular media.
      */
     popular: function( callback ) {
-        var endpoint = this.BASE_URL + '/media/popular?access_token=' + this.config.access_token;
+        var endpoint = this.BASE_URL + '/media/popular?access_token=' + this.config.client_id;
         this.getJSON( endpoint, callback );
     },
 
@@ -24,7 +24,7 @@ window.Instagram = {
      * Get a list of recently tagged media.
      */
     tagsByName: function( name, callback ) {
-        var endpoint = this.BASE_URL + '/tags/' + name + '/media/recent?access_token=' + this.config.access_token;
+        var endpoint = this.BASE_URL + '/tags/' + name + '/media/recent?access_token=' + this.config.client_id;
         this.getJSON( endpoint, callback );
     },
 
