@@ -1,33 +1,21 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <meta name="instagram-clientid" content="6adedf760d08471099116d3eb04ee026" />
-  <meta name="instagram-scope" content="public_content" />
-
-  <title>Home</title>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
-
+  <meta charset="UTF-8">
+  <title>Photo Search V2</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
 
-<form id="tagsearch">
-  <p>
-    <label for="tag">Hashtag:</label>
-    <input type="text" id="tag" name="tag" placeholder="unicorn" required pattern="[a-zA-Z0-9]+" />
-    <input type="submit" value="Search" />
-  </p>
+<form id="form">
+  <input type="text" id="search" />
 </form>
+<div id="instagram"></div>
 
-<div id="target"></div>
-
-<script type="text/javascript" src="jquery-min.js"></script>
-<script type="text/javascript" src="search.js"></script>
+<footer>
+  <script type="text/javascript" src="jquery-min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</footer>
 
 </body>
 </html>
