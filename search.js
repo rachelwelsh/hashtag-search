@@ -47,27 +47,37 @@ Instagram.init({
 
 $( document ).ready(function() {
 
+
     Instagram.popular(function( response ) {
-        var $instagram = $( '#instagram' );
+        var $instagram = $( '#results' );
         for ( var i = 0; i < response.data.length; i++ ) {
             imageUrl = response.data[i].images.low_resolution.url;
             $instagram.append( '<img src="' + imageUrl + '" />' );
         }
     });
 
-    $( '#form' ).on('submit', function( e ) {
+    $( 'form' ).on('submit', function( e ) {
         e.preventDefault();
 
         var tagName = $( '#search' ).val();
         Instagram.tagsByName(tagName, function( response ) {
-            var $instagram = $( '#instagram' );
+            var $instagram = $( '#results' );
                 $instagram.html('');
-
+			console.log(response);
             for ( var i = 0; i < response.data.length; i++ ) {
                 imageUrl = response.data[i].images.low_resolution.url;
-                $instagram.append( '<img src="' + imageUrl + '" />' );
+				caption = response.data[i].caption.text;
+				insta_link = response.data[i].link;
+                $instagram.append( "<div class='imgWrap'><img src='"+imageUrl+"' alt='"+insta_link+"' width='300' height='300'><span class='imgDescription' data-url='"+insta_link+"'>"+caption+"</span></div>");
             }
+			
+			$(".imgDescription").click(function(){
+				window.open($(this).attr("data-url"));
+			});
         });
+
+	
+
 
     });
 

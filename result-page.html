@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Home | Hashtag Search</title>
-  <link type="text/css" rel="stylesheet" href="css/search.css" />
+  <title>Results | Hashtag Search</title>
+  <link type="text/css" rel="stylesheet" href="css/result.css" />
+  <script src="jquery-min.js"></script>
 </head>
 <body>
 
@@ -13,24 +14,31 @@
       <div id="header">
         <div id="logo">
        	  <a href="index.html"><img src="images/final.png" alt="home logo" /></a>
-        </div><!--logo-->
-      </div><!--header-->
-    </div><!--header-page-->
-  </div><!--page-->
+        </div><!--#logo-->
+      </div><!--#header-->
+    </div><!--#header-page-->
+  </div><!--#page-->
 
   <div id="search-bar">
   	<form id="searchbox" action="result-page.html">
     <input id="search" type="text" placeholder="Type here">
     <input id="submit" type="submit" value="#Search" >
   	</form>
-  </div>
-  <!--search-bar-->
+  </div><!--#search-bar-->
 
-  <hr>
+  <div id="p1">
+  	<p>Hover over an image to see more information.</p>
+  </div><!--#p1-->
+	<section id="results">
+	
+	</section>
+
+	<hr />
 
   <footer>
   	<p>Copyright &copy; 2016</p>
   </footer>
 
 </body>
+<script src="search.js"></script>
 </html>
