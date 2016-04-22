@@ -41,7 +41,7 @@ window.Instagram = {
 };
 
 Instagram.init({
-    client_id: 'd49da08a520f47cbb6e7618f077f33ef'
+    client_id: '6adedf7.e017c72192704758b86014551a73a079'
 });
 
 
