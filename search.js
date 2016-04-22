@@ -22,11 +22,11 @@ window.Instagram = {
 
     /**
      * Get a list of recently tagged media.
-     
+     */
     tagsByName: function( name, callback ) {
         var endpoint = this.BASE_URL + '/tags/' + name + '/media/recent?client_id=' + this.config.client_id;
         this.getJSON( endpoint, callback );
-    },*/
+    },
 
     getJSON: function( url, callback ) {
         $.ajax({
