@@ -42,6 +42,12 @@ window.Instagram = {
 
 Instagram.init({
     client_id: '6adedf7.e017c72192704758b86014551a73a079'
+    curl \-F 'client_id=6adedf760d08471099116d3eb04ee026' \ 
+	-F 'client_secret=e600de60d1654920b80c89e794f1954e' 
+	-F 'grant_type=authorization_code' 
+	-F 'redirect_uri=http://hashtag-search.azurewebsites.net/' 
+	-F 'code=1b0430d5891d4ef78bfe4b1ff0e00d68' 
+	https://api.instagram.com/oauth/access_token
 });
 
 
