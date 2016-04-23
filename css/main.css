@@ -96,7 +96,7 @@ li {
   display: inline-block;
   height: 300px;
   width: 300px;
-  text-justify: distribute-all-lines;
+  text-align: justify;
 }
 
 .imgDescription {
