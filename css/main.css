@@ -88,6 +88,7 @@ li {
 #results {
   width: 100%;
   margin: 0px auto;
+  text-align: center;
 }
 
 .imgWrap {
@@ -98,6 +99,7 @@ li {
 }
 
 .imgDescription {
+  z-index: 10;
   position: absolute;
   left: 0;
   right: 0;
