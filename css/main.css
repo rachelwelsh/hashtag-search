@@ -79,7 +79,7 @@ li {
 }
 
 /* Search Results */
-#results{
+#results {
   width: 100%;
   margin: 0px auto;
 }
@@ -87,8 +87,8 @@ li {
 .imgWrap {
   position: relative;
   display: inline-block;
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
 }
 
 .imgDescription {
@@ -120,9 +120,6 @@ li {
   transform: scale(1);
 }
 
-hr {
-  width:85%;
-}
 
 /* Footer */
 footer {
