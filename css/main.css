@@ -5,7 +5,7 @@ html {
 
 
 body {
-  background-image: url("bg-pattern.png");
+  background-image: url('../images/bg-pattern.png');
   background-color: #2d2d2d;
   background-attachment: fixed;
   color:#ffffff;
