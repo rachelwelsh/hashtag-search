@@ -53,7 +53,8 @@ li {
   float: left;
 }
 
-#search {
+#search,
+#search:focus {
   padding: 5px 10px;
   height: 40px;
   width: 410px;
@@ -61,6 +62,7 @@ li {
   background: #f1f1f1;
   border-radius: 10px 0px 0px 10px;
   color: #2d2d2d;
+  outline: 0;
 }
 
 #submit,
@@ -72,8 +74,8 @@ li {
   border-radius: 0px 10px 10px 0px;
   background-image: linear-gradient(to right, #ef425e, #f6dc6b,#bfe5be,#76c7fe);
   color: #2d2d2d;
+  outline: 0;
 }
-
 
 
 .info {
