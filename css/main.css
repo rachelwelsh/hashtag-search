@@ -81,6 +81,7 @@ li {
 /* Search Results */
 #results{
   width: 100%;
+  margin: 20px auto;
 }
 
 .imgWrap {
@@ -88,7 +89,7 @@ li {
   display: inline-block;
   height: 300px;
   width: 300px;
-  margin: 0px auto;
+  padding: 20px
 }
 
 .imgDescription {
