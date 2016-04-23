@@ -40,26 +40,27 @@ li {
   margin-top: 50px;
 }
 #searchbox {
-    background-color: transparent;
-    width: 550px;
-    height: 70px;
-    padding: 10px;
-    margin: 70px auto 50px;
-    overflow: hidden; /* Clear floats */
+  background-color: transparent;
+  width: 550px;
+  height: 70px;
+  padding: 10px;
+  margin: 70px auto 50px;
+  overflow: hidden; /* Clear floats */
 }
 
 #search,
 #submit {
-    float: left;
+  float: left;
 }
 
 #search {
-    padding: 5px 10px;
-    height: 40px;
-    width: 410px;
-    border: 2px solid #2d2d2d;
-    background: #f1f1f1;
-    border-radius: 10px 0px 0px 10px;
+  padding: 5px 10px;
+  height: 40px;
+  width: 410px;
+  border: 2px solid #2d2d2d;
+  background: #f1f1f1;
+  border-radius: 10px 0px 0px 10px;
+  color: #2d2d2d;
 }
 
 #submit {
