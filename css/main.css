@@ -53,23 +53,29 @@ li {
   float: left;
 }
 
-#search {
+#search,
+#search:focus {
   padding: 5px 10px;
   height: 40px;
   width: 410px;
   border: 2px solid #2d2d2d;
   background: #f1f1f1;
   border-radius: 10px 0px 0px 10px;
-  color: #2d2d2d
+  color: #2d2d2d;
+  outline: 0;
 }
 
-#submit {
+#submit,
+#submit:focus,
+#submit:visited,
+#submit:active {
   width: 120px;
   height: 40px;
   border: 2px solid #2d2d2d;
   border-radius: 0px 10px 10px 0px;
   background-image: linear-gradient(to right, #ef425e, #f6dc6b,#bfe5be,#76c7fe);
   color: #2d2d2d;
+  outline: 0;
 }
 
 
