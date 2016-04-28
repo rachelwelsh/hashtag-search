@@ -108,7 +108,7 @@ li {
   height: 300px;
   width: 300px;
   visibility: hidden;
-  opacity: 0;
+  hyphens: none | manual
   word-break: break-all;
   -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
   box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
@@ -123,7 +123,7 @@ li {
 
 .imgWrap:hover .imgDescription {
   visibility: visible;
-  opacity: 1;
+ 
   -webkit-transform: scale(1);
   transform: scale(1);
 }
