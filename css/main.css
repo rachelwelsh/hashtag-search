@@ -98,7 +98,7 @@ li {
   width: 300px;	
   margin:10px;
 }
-.imgWrap img {
+#results .imgWrap img {
   visibility: visible;
 }
   		  
