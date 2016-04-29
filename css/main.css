@@ -114,7 +114,6 @@ li {
   transform: scale(0);
     /* Transition */
   -webkit-transition: scale 0.5s;
-  -moz-transition: visibility 0.5s;
   transition: scale 0.5s;
 }
 
