@@ -3,16 +3,14 @@ html {
   min-height: 100%;
 }
 
-
 body {
   background-image: url('../images/bg-pattern.png');
   background-color: #2d2d2d;
   background-attachment: fixed;
-  color:#ffffff;
+  color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size:16px;
+  font-size: 16px;
 }
-
 
 a:link,
 a:visited,
@@ -28,11 +26,11 @@ li {
 
 /* Logo */
 #logo img {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:10%;
-  padding:0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  padding: 0px;
 }
 
 /* Search Bar */
@@ -96,7 +94,7 @@ li {
   display: inline-block;
   height: 300px;
   width: 300px;
-  margin:10px;
+  margin: 10px;
 }
 
 .imgDescription {
@@ -108,22 +106,22 @@ li {
   color: #fff;
   height: 300px;
   width: 300px;
-  /*visibility: hidden;*/
   hyphens: none;
   word-break: break-word;
   -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
   box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
   -webkit-transform: scale(0);
+  -ms-transform: scale(0);
   transform: scale(0);
     /* Transition */
   -webkit-transition: scale 0.5s;
-  -moz-transition: visibility opacity 0.5s;
+  -moz-transition: scale 0.5s;
   transition: scale 0.5s;
 }
 
 .imgWrap:hover .imgDescription {
- /* visibility: visible;*/
   -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
 }
 
@@ -138,9 +136,9 @@ footer {
 }
 
 footer p {
-  display:block;
+  display: block;
   margin: 20px auto;
-  font-weight:100;
-  width:200px;
-  font-size:14px;
+  font-weight: 100;
+  width: 200px;
+  font-size: 14px;
 }
