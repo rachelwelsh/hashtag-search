@@ -116,9 +116,9 @@ li {
   -webkit-transform: scale(0);
   transform: scale(0);
     /* Transition */
-  -webkit-transition: visibility opacity 0.5s;
+  -webkit-transition: scale 0.5s;
   -moz-transition: visibility opacity 0.5s;
-  transition: all 0.5s;
+  transition: scale 0.5s;
 }
 
 .imgWrap:hover .imgDescription {
