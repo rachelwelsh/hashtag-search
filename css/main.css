@@ -94,11 +94,13 @@ li {
 .imgWrap {
   position: relative;	
   display: inline-block;
-  visibility: visible;
   height: 300px;	
   width: 300px;	
   margin:10px;
-}		  
+}
+.imgWrap img {
+  visibility: visible;
+}
   		  
 .imgDescription {	
   z-index: 10;	
