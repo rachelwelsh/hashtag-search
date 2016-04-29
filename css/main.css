@@ -88,12 +88,13 @@ li {
 }		
 
 #results img {
-  display: none;
+  visibility: hidden;
 }
  		 
 .imgWrap {
   position: relative;	
-  display: inline-block;		
+  display: inline-block;
+  
   height: 300px;	
   width: 300px;	
   margin:10px;
