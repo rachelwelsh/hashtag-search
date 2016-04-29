@@ -1,17 +1,18 @@
 html {
-  position: relative;	
-  min-height: 100%;	
-}	
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   background-image: url('../images/bg-pattern.png');
   background-color: #2d2d2d;
   background-attachment: fixed;
-  color:#ffffff;
+  color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size:16px;
+  font-size: 16px;
 }
- 		
+
+/* default all anchor link styles */
 a:link,
 a:visited,
 a:hover,
@@ -24,13 +25,13 @@ li {
   list-style: none;
 }
   		  
-/* Logo */
+/* Centering Logo */
 #logo img {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:10%;
-  padding:0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  padding: 0px;
 }
   		  
 /* Search Bar */
@@ -45,12 +46,13 @@ li {
   margin: 70px auto 50px;
   overflow: hidden; /* Clear floats */
 }
- 		 
+
 #search,
 #submit {
   float: left;
 }
- 		 
+
+/* Style search box w/ rounded corners, colours, etc. */
 #search,
 #search:focus {
   padding: 5px 10px;
@@ -63,6 +65,7 @@ li {
   outline: 0;	
 }
 
+/* Styling search button w/ rounded corners, colours, etc. */
 #submit,	
 #submit:focus,	
 #submit:visited,		
@@ -72,65 +75,69 @@ li {
   border: 2px solid #2d2d2d;		 
   border-radius: 0px 10px 10px 0px;	
   background-image: linear-gradient(to right, #ef425e, #f6dc6b,#bfe5be,#76c7fe);
-  color: #2d2d2d;	
+  color: #2d2d2d;
   outline: 0;
 }
- 		 
-.info {	
-  text-align: center;	
-}		 
- 		 
-/* Search Results */	
-#results {		
-  width: 100%;		
-  margin: 20px auto;		 
-  text-align: center;	
-}		
 
+.info {
+  text-align: center;
+}
+ 		 
+/* Search Results */
+#results {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+  /* Hide initial image flow on index page */
 #results img {
   visibility: hidden;
 }
- 		 
+
+/* Image wrapper */
 .imgWrap {
-  position: relative;	
+  position: relative;
   display: inline-block;
-  height: 300px;	
-  width: 300px;	
-  margin:10px;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
 }
+
+  /* Show image flow again */
 #results .imgWrap img {
   visibility: visible;
 }
-  		  
+
+/* Image Overlays */
 .imgDescription {	
-  z-index: 10;	
+  z-index: 10;
   position: absolute;
   left: 0;
-  right: 0;	
-  background-color: rgba(0,0,0,0.7);	
-  color: #fff;		
-  height: 300px;		
-  width: 300px;		
-  /*visibility: hidden;*/
-  hyphens: none;	
-  word-break: break-word;	
-  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);		
-  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);	
-  -webkit-transform: scale(0);	
-  transform: scale(0);		
-    /* Transition */		  
-  -webkit-transition: all 0.5s ease-in-out;		 
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  height: 300px;
+  width: 300px;
+  hyphens: none;
+  word-break: break-word;
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+    /* Transitions */
+  -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-  		  
+
+/* Displaying overlay */
 .imgWrap:hover .imgDescription {
-  /*visibility: visible;*/
-  -webkit-transform: scale(1);		
+  -webkit-transform: scale(1);
   transform: scale(1);
 }
-  		  
- 		 
+
+
 /* Footer */
 footer {	
   position: absolute;
