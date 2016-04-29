@@ -119,7 +119,7 @@ li {
   transform: scale(0);
   -webkit-transition: visibility opacity 0.5s;
   -moz-transition: visibility opacity 0.5s;
-  transition: visibility opacity 0.5s;
+  transition: all opacity 0.5s;
 }
 
 .imgWrap:hover .imgDescription {
